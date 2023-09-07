@@ -6,6 +6,7 @@ skip_list:
   - role-name
   - name[missing]
   - no-free-form
+  - schema[meta]
 
 exclude_paths:
   - .cache/

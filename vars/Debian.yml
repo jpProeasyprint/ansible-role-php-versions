@@ -2,11 +2,11 @@
 # Configure PHP paths and packages.
 __php_conf_paths:
   - /etc/php/{{ php_version }}/fpm
-  - /etc/php/{{ php_version }}/{{webserver}}
+  - /etc/php/{{ php_version }}/{{ webserver }}
   - /etc/php/{{ php_version }}/cli
 __php_extension_conf_paths:
   - /etc/php/{{ php_version }}/fpm/conf.d
-  - /etc/php/{{ php_version }}/{{webserver}}/conf.d
+  - /etc/php/{{ php_version }}/{{ webserver }}/conf.d
   - /etc/php/{{ php_version }}/cli/conf.d
 __php_fpm_daemon: php{{ php_version }}-fpm
 __php_fpm_conf_path: /etc/php/{{ php_version }}/fpm
