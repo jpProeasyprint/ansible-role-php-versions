@@ -1,14 +1,13 @@
 ---
 dependencies: []
-
 galaxy_info:
-  role_name: php-versions
+  role_name: php_versions
   author: geerlingguy
   description: Allows different PHP versions to be installed.
-  company: "Midwestern Mac, LLC"
-  license: "MIT"
+  company: Midwestern Mac, LLC
+  license: MIT
   issue_tracker_url: https://github.com/geerlingguy/ansible-role-php-versions/issues
-  min_ansible_version: 2.10
+  min_ansible_version: "2.10"
   platforms:
     - name: Debian
       versions:
